@@ -1,0 +1,204 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg {
+    background-image: url('https://64.media.tumblr.com/ece6558ebe522474c2ee423190a64986/b8adb5639bc86e73-a0/s1280x1920/6ccf9fea825bb6d39f8aaf48d65e8a7dd23a1b42.gifv');
+    /* background-image: url("https://c.tenor.com/rv4GW_UtqJMAAAAC/wallpaper.gif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px, 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+body {
+    text-align: center;
+    /* margin: 0; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 2em;
+  }
+
+  img {
+    width: 25%;
+    height: 25%;
+    border: none;
+    border-radius: 100em;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background-size: 100px;
+  }
+
+  .aboutMe {
+    display: flex;
+    justify-content: center;
+  }
+
+  .me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* width: 85%; */
+    /* align-items: center; */
+    /* background-color: lavender; */
+  }
+
+  .skill {
+    padding: 1%;
+    width: 65%;
+    border: 3px;
+    border-style: dashed;
+    border-radius: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: white;
+  }
+
+  .back {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: aliceblue;
+  }
+
+  .design {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: lightgrey;
+  }
+
+  .self {
+    width: 35%;
+    background-color: lavenderblush;
+  }
+
+  .acnh {
+    width: 15em;
+    height: 15em;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background-image: url("https://c.tenor.com/zc0oV3jmFNwAAAAC/animal-crossing-new-horizons.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .link {
+    width: 15em;
+    height: 15em;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background-image: url("https://i.gifer.com/origin/95/95410ca86a25c6a71100bceb91afb88b_w200.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-color: plum;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cap {
+    padding: 1%;
+    width: 65%;
+    border: 3px;
+    border-style: dashed;
+    border-radius: 5em;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    font-weight: bolder;
+    width: 65%;
+    font-size: 1.8em;
+  }
+
+  .github {
+    padding: 25px 50px;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid;
+    font-weight: bold;
+	border-radius: 5px;
+    color: white;
+    background-color: plum;
+    /* margin-left: 5%; */
+    cursor: pointer;
+    /* margin-top: 40%; */
+  }
+
+  .contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .email {
+    padding: 20px;
+    width: 35%;
+    border: 3px;
+    border-style: dashed;
+    border-radius: 5em;
+    border-color: white;
+  }
+
+  h4 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
